@@ -14,7 +14,7 @@ void setup() {
 
 void loop() {
   potValue = analogRead(potPin);
-  mappedPotValue = map(potValue, 0, 1023, 0, 4);
+  mappedPotValue = map(potValue, 0, 1023, 0, 5);
 
   switch (mappedPotValue) {
     case 0:
