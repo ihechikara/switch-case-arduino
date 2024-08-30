@@ -18,38 +18,38 @@ void loop() {
 
   switch (mappedPotValue) {
     case 0:
-      digitalWrite(8, LOW);
-      digitalWrite(9, LOW);
-      digitalWrite(10, LOW);
+      digitalWrite(greenLED, LOW);
+      digitalWrite(yellowLED, LOW);
+      digitalWrite(redLED, LOW);
       Serial.println(mappedPotValue);
       break;
     case 1:
-      digitalWrite(8, HIGH);
-      digitalWrite(9, LOW);
-      digitalWrite(10, LOW);
+      digitalWrite(greenLED, HIGH);
+      digitalWrite(yellowLED, LOW);
+      digitalWrite(redLED, LOW);
       Serial.println(mappedPotValue);
       break;
     case 2:
-      digitalWrite(8, LOW);
-      digitalWrite(9, HIGH);
-      digitalWrite(10, LOW);
+      digitalWrite(greenLED, LOW);
+      digitalWrite(yellowLED, HIGH);
+      digitalWrite(redLED, LOW);
       Serial.println(mappedPotValue);
       break;
     case 3:
-      digitalWrite(8, LOW);
-      digitalWrite(9, LOW);
-      digitalWrite(10, HIGH);
+      digitalWrite(greenLED, LOW);
+      digitalWrite(yellowLED, LOW);
+      digitalWrite(redLED, HIGH);
       Serial.println(mappedPotValue);
       break;
     case 4:
-      digitalWrite(8, HIGH);
-      digitalWrite(9, HIGH);
-      digitalWrite(10, HIGH);
+      digitalWrite(greenLED, HIGH);
+      digitalWrite(yellowLED, HIGH);
+      digitalWrite(redLED, HIGH);
       Serial.println(mappedPotValue);
       delay(500);
-      digitalWrite(8, LOW);
-      digitalWrite(9, LOW);
-      digitalWrite(10, LOW);
+      digitalWrite(greenLED, LOW);
+      digitalWrite(yellowLED, LOW);
+      digitalWrite(redLED, LOW);
       Serial.println(mappedPotValue);
       delay(500);
       break;
