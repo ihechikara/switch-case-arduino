@@ -16,7 +16,7 @@
 
 Find the code for this project [here](https://github.com/ihechikara/switch-case-arduino/blob/main/switch-case.ino).
 
-Watch the video for this project [here]().
+Watch the video for this project [here](https://www.youtube.com/watch?v=TAU_osZ6aGQ).
 
 Read the article for this project [here]().
 
