@@ -18,7 +18,7 @@ Find the code for this project [here](https://github.com/ihechikara/switch-case-
 
 Watch the video for this project [here](https://www.youtube.com/watch?v=TAU_osZ6aGQ).
 
-Read the article for this project [here]().
+Read the article for this project [here](https://www.freecodecamp.org/news/how-to-use-switch-case-in-arduino-control-leds/).
 
 Subscribe to my [YouTube channel](https://www.youtube.com/@Ihechikara) for more videos on embedded systems and web development.
 
